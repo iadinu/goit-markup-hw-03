@@ -116,6 +116,7 @@ body {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 48px;
 }
 .hero-button:hover,
 .hero-button:focus {
