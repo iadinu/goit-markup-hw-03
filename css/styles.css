@@ -1,0 +1,160 @@
+:root {
+  --white-color: #ffffff;
+  --navy-color: #2e2f42;
+  --iris-color: #4d5ae5;
+  --ocean-color: #404bbf;
+  --cloud-color: #f4f4fd;
+  --slate-color: #434455;
+}
+/*Global Styles*/
+
+body {
+  color: var(--slate-color);
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-color);
+}
+/*Header classes*/
+.logo {
+  color: var(--iris-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.link {
+  text-decoration: none;
+}
+.span-studio {
+  color: var(--navy-color);
+}
+.list {
+  list-style-type: none;
+}
+.nav-link {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%; /* 150% */
+  letter-spacing: 0.32px;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--ocean-color);
+}
+.address-bar {
+  font-style: normal;
+  list-style-type: none;
+}
+.address-link {
+  color: var(--slate-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%; /* 150% */
+  letter-spacing: 0.32px;
+  text-decoration: none;
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--ocean-color);
+}
+/*Section 1*/
+.hero-container {
+  color: var(-white-color);
+  background-color: var(--navy-color);
+  text-align: center;
+}
+.hero-title {
+  color: var(--white-color);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 107.143%; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+.hero-button {
+  background: var(--IRIS, #4d5ae5);
+  color: var(--WHITE, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%; /* 150% */
+  letter-spacing: 0.64px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--ocean-color);
+}
+/* Section 2 */
+
+.joker {
+  color: var(--navy-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.jokerul {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Sectia 3 */
+.about-us {
+  color: var(--navy-color);
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* Section 4 */
+.team-container {
+  background-color: var(--cloud-color);
+}
+.list-background {
+  background-color: var(--white-color);
+}
+.photoes {
+  background-color: var(--white-color);
+}
+/* Footer */
+.big-toe {
+  color: var(--cloud-color);
+  background-color: var(--navy-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.studio-span {
+  color: var(--cloud-color);
+}
+/* Portfolio */
+.push-me {
+  font-family: "Roboto", sans-serif;
+  color: var(--iris-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud-color);
+  cursor: pointer;
+}
+.push-me:hover,
+.push-me:focus {
+  background-color: var(--ocean-color);
+  color: var(--white-color);
+}
+.title-photo {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-color);
+}
+.p-photo {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
+}
